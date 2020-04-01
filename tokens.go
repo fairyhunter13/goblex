@@ -16,7 +16,7 @@ var (
 
 // TokenType is the type used by the Emit method to emit tokens. Implementors should create
 // their own types to emit when building a lexer.
-type TokenType int8
+type TokenType int
 
 const (
 	// TokenTypeError is a TokenType that can be used to emit errors
